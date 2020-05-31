@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background: linear-gradient(90deg, #161122 21px, transparent 1%) center,
-    linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
-  background-size: 22px 22px;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to left, #3c1053, #ad5389);
+  background: linear-gradient(to left, #3c1053, #ad5389);
   color: white;
 }
