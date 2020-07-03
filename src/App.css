@@ -20,12 +20,15 @@ body {
   color: white !important;
 }
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 {
   font-family: "Roboto Mono", monospace;
 }
 .landing-container {
   text-align: center;
-  padding: 18rem 0 10rem 0;
+  padding: 18rem 0 5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,4 +52,38 @@ h2 {
 
 .project-item {
   margin: 20px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.about-info {
+  padding: 5% 0 0 0;
+}
+
+.about-info p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-info h3 {
+  margin-top: 5%;
+}
+
+.contact-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 990px) {
+  .contact-holder {
+    display: flex;
+    flex-direction: column;
+  }
 }
