@@ -4,8 +4,8 @@ import { Tooltip } from "react-mdl";
 const Landing = () => (
   <div>
     <div className="landing-container">
-      <h1>Hi, I am Atul</h1>
-      <h2>I am a Full Stack Developer</h2>
+      <h2>Hi, I am Atul</h2>
+      <h3>I am a Full Stack Developer</h3>
       <h4>
         JavaScript | NodeJS | Express | React | MongoDB | Python | PostgreSQL
       </h4>

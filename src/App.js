@@ -10,6 +10,7 @@ function App() {
       <Layout>
         <Header className="navbar-header" href="/" title="Atul Singh" scroll>
           <Navigation>
+            <Link to="/portfolio/">Home</Link>
             <Link to="/aboutme">About Me</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
