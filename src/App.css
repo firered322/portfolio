@@ -1,31 +1,25 @@
-body {
+/* body {
   font-family: "Roboto Mono", monospace;
-}
+} */
 
-.navbar-header {
+/* .navbar-header {
   background: #ad5389;
   background: -webkit-linear-gradient(to left, #3c1053, #ad5389);
   background: linear-gradient(to left, #3c1053, #ad5389);
-}
+} */
 
-.navbar-drawer {
+/* .navbar-drawer {
   background: #ad5389;
   background: -webkit-linear-gradient(to top, #3c1053, #ad5389);
   background: linear-gradient(to top, #3c1053, #ad5389);
   border: none;
   color: white;
-}
+} */
 
 .white {
   color: white !important;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Roboto Mono", monospace;
-}
+
 .landing-container {
   text-align: center;
   padding: 15rem 0 5rem 0;
@@ -59,19 +53,15 @@ h5 {
 }
 
 .about-info {
-  padding: 5% 0 0 0;
+  padding: 2% 0 0 0;
 }
 
-.about-info p {
-  text-align: center;
-  font-size: 20px;
-}
-
-.about-info h3 {
-  margin-top: 5%;
+.aboutme-main {
+  margin: 3rem 0;
 }
 
 .contact-holder {
+  margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
 }
@@ -81,9 +71,16 @@ h5 {
   flex-direction: column;
 }
 
+.contact-section {
+  margin-top: 2rem;
+}
+
 @media only screen and (max-width: 990px) {
   .contact-holder {
     display: flex;
     flex-direction: column;
+  }
+  .contact-field {
+    margin-bottom: 1rem;
   }
 }

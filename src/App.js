@@ -1,39 +1,49 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { AppBar, Toolbar, Typography, Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import Routes from "./components/routes";
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 1,
+  },
+}));
+
 function App() {
+  const classes = useStyles();
   return (
     <div className="demo-big-content">
-      <Layout>
-        <Header className="navbar-header" href="/" title="Atul Singh" scroll>
-          <Navigation>
-            <Link to="/portfolio/">Home</Link>
-            <Link to="/aboutme">About Me</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/projects">Projects</Link>
-          </Navigation>
-        </Header>
-        <Drawer className="navbar-drawer" title="Title">
-          <Navigation>
-            <Link className="white" to="/aboutme">
-              About Me
-            </Link>
-            <Link className="white" to="/resume">
-              Resume
-            </Link>
-            <Link className="white" to="/projects">
-              Projects
-            </Link>
-          </Navigation>
-        </Drawer>
-        <Content>
-          <div className="page-content"></div>
-          <Routes />
-        </Content>
-      </Layout>
+      <AppBar position="static" className="navbar-header">
+        <Toolbar>
+          <Typography variant="h6" className={classes.title}>
+            Atul Singh
+          </Typography>
+          <Button color="inherit" component={Link} to="/portfolio">
+            Home
+          </Button>
+          <Button color="inherit" component={Link} to="/aboutme">
+            About Me
+          </Button>
+          <Button color="inherit" component={Link} to="/projects">
+            Projects
+          </Button>
+          <Button color="inherit" component={Link} to="/resume">
+            Resume
+          </Button>
+        </Toolbar>
+      </AppBar>
+      <div>
+        <div className="page-content"></div>
+        <Routes />
+      </div>
     </div>
   );
 }
