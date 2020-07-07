@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Divider, Paper, Link } from "@material-ui/core";
+import { Typography, Paper, Link } from "@material-ui/core";
 import Tilt from "react-tilt";
 
 const Aboutme = () => {
@@ -9,7 +9,6 @@ const Aboutme = () => {
         <Typography className="text-center" variant="h3">
           Hi, I am Atul
         </Typography>
-        <Divider />
         <div className="about-info">
           <Typography variant="h5">
             I am a Software Developer based in Mumbai. I hold a bachelors in
@@ -40,7 +39,6 @@ const Aboutme = () => {
           </Typography>
         </div>
       </div>
-      <Divider />
       <div className="text-center contact-section">
         <Typography className="text-center" variant="h5">
           Get in touch
@@ -50,7 +48,7 @@ const Aboutme = () => {
             <Tilt className="Tilt" options={{ max: 40 }}>
               <div className="Tilt-inner">
                 {" "}
-                <Paper elevation={2} style={{ padding: 40 }}>
+                <Paper elevation={2} style={{ padding: 30 }}>
                   <Typography variant="h6">Phone:</Typography>
                   <br />
                   <i
@@ -68,7 +66,7 @@ const Aboutme = () => {
             <Tilt className="Tilt" options={{ max: 40 }}>
               <div className="Tilt-inner">
                 {" "}
-                <Paper elevation={2} style={{ padding: 40 }}>
+                <Paper elevation={2} style={{ padding: 30 }}>
                   <Typography variant="h6">LinkedIn</Typography>
                   <br />
                   <i
@@ -92,7 +90,7 @@ const Aboutme = () => {
             <Tilt className="Tilt" options={{ max: 40 }}>
               <div className="Tilt-inner">
                 {" "}
-                <Paper elevation={2} style={{ padding: 40 }}>
+                <Paper elevation={2} style={{ padding: 30 }}>
                   <Typography variant="h6">E-mail:</Typography>
                   <br />
                   <i

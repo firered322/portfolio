@@ -7,6 +7,7 @@ import {
   Typography,
   CardActions,
   Button,
+  Link,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -29,25 +30,38 @@ const Projects = () => {
             <CardActionArea>
               <CardMedia
                 className={classes.media}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Contemplative Reptile"
+                image={require("../static/coroneye.PNG")}
+                title="Covid-19 Tracker"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                  Lizard
+                  CoronEye
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                  A live COVID-19 trackers which displays the live statistics of
+                  the the cases, recovery and deceased count. It has a section
+                  for India specific data.
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Share
+                <Link
+                  target="_blank"
+                  href="http://coroneye.herokuapp.com/"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Live</Typography>
+                </Link>
               </Button>
               <Button size="small" color="primary">
-                Learn More
+                <Link
+                  target="_blank"
+                  href="https://github.com/firered322/coronEye"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Code</Typography>
+                </Link>
               </Button>
             </CardActions>
           </Card>
@@ -57,25 +71,38 @@ const Projects = () => {
             <CardActionArea>
               <CardMedia
                 className={classes.media}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Contemplative Reptile"
+                image={require("../static/movieszzapp.PNG")}
+                title="Movies and actors database"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                  Lizard
+                  Moviezzz
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                  A web app which shows the data for movies and actors from the
+                  TMDB API. It provides a search functionality to search for
+                  movies and actors and displayes data for them accordingly.
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Share
+                <Link
+                  target="_blank"
+                  href="https://moviezzzapp.herokuapp.com/"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Live</Typography>
+                </Link>
               </Button>
               <Button size="small" color="primary">
-                Learn More
+                <Link
+                  target="_blank"
+                  href="https://github.com/firered322/movieApp"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Code</Typography>
+                </Link>
               </Button>
             </CardActions>
           </Card>
@@ -85,25 +112,29 @@ const Projects = () => {
             <CardActionArea>
               <CardMedia
                 className={classes.media}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Contemplative Reptile"
+                image={require("../static/storybook.PNG")}
+                title="Story based blogs"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                  Lizard
+                  StoryBook
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                  A social media platform on which users can sign in using OAuth
+                  and add stories to share. The user can make a story public or
+                  private which is accessible to everyone accordingly.
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
-                Learn More
+                <Link
+                  target="_blank"
+                  href="https://github.com/firered322/storybook"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Code</Typography>
+                </Link>
               </Button>
             </CardActions>
           </Card>
