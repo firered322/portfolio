@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import { AppBar, Toolbar, Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Particles from "react-particles-js";
+
 import { Link } from "react-router-dom";
 import Routes from "./components/routes";
 
@@ -20,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   return (
-    <div className="demo-big-content">
+    <div>
       <AppBar position="static" className="navbar-header">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
@@ -40,8 +42,28 @@ function App() {
           </Button>
         </Toolbar>
       </AppBar>
+      <Particles
+        className="particles"
+        params={{
+          particles: {
+            number: {
+              value: 60,
+            },
+            size: {
+              value: 1,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
+        }}
+      />
       <div>
-        <div className="page-content"></div>
         <Routes />
       </div>
     </div>

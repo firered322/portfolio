@@ -11,14 +11,14 @@ const Aboutme = () => {
         </Typography>
         <Divider />
         <div className="about-info">
-          <Typography variant="body1">
+          <Typography variant="h5">
             I am a Software Developer based in Mumbai. I hold a bachelors in
             Electronics and Communication Engineering from SRM Institute of
             Science and Technology and have over 2 years of professional
             experience.
           </Typography>
           <br />
-          <Typography variant="body1">
+          <Typography variant="h5">
             I have worked in a startup environment as well medium sized
             corporation. In my career I have developed, maintained and launched
             multiple projects from scratch or improved an existing code base. I
@@ -30,7 +30,7 @@ const Aboutme = () => {
             .
           </Typography>
           <br />
-          <Typography variant="body1">
+          <Typography variant="h5">
             I do Full Stack Development using MongoDB, Express, React, Node.js
             (MERN) and Django. I am experienced in building CRUD applications,
             RESTful APIs using Node.js and Express, User Authentication with

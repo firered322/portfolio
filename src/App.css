@@ -83,4 +83,13 @@
   .contact-field {
     margin-bottom: 1rem;
   }
+  .container {
+    margin: 5% 10%;
+  }
+}
+
+@media only screen and (max-width: 640) {
+  .container {
+    margin: 0;
+  }
 }

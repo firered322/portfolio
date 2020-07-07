@@ -18,17 +18,17 @@ const Landing = () => (
           href="https://www.linkedin.com/in/atul-singh-464265128/"
           target="blank"
         >
-          <i class="fab fa-linkedin fa-2x"></i>
+          <i style={{ color: "#2e73ab" }} class="fab fa-linkedin fa-2x"></i>
         </a>
       </Tooltip>
       <Tooltip title="Github">
         <a href="https://github.com/firered322" target="blank">
-          <i class="fab fa-github fa-2x"></i>
+          <i style={{ color: "#000000" }} class="fab fa-github fa-2x"></i>
         </a>
       </Tooltip>
       <Tooltip title="Email">
         <a href="mailto:atulsingh1396@gmail.com" target="blank">
-          <i class="fas fa-envelope fa-2x"></i>
+          <i style={{ color: "#f44336" }} class="fas fa-envelope fa-2x"></i>
         </a>
       </Tooltip>
     </div>
