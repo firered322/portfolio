@@ -80,11 +80,6 @@ function App(props) {
               Projects
             </Button>
           </Box>
-          <Box display={{ xs: "none", sm: "none", md: "block" }}>
-            <Button color="inherit" component={Link} to="/resume">
-              Resume
-            </Button>
-          </Box>
         </Toolbar>
       </AppBar>
       <Drawer
