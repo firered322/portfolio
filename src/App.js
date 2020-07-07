@@ -119,15 +119,6 @@ function App(props) {
           >
             Projects
           </Button>
-          <br />
-          <Button
-            onClick={toggleDrawer}
-            color="inherit"
-            component={Link}
-            to="/resume"
-          >
-            Resume
-          </Button>
         </div>
       </Drawer>
       <Particles
