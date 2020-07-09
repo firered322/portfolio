@@ -60,6 +60,10 @@
   margin: 3rem 0;
 }
 
+.container-about {
+  margin: 5% 15%;
+}
+
 .contact-holder {
   margin-top: 2rem;
   display: flex;
@@ -112,5 +116,8 @@
   }
   .container {
     margin: 0;
+  }
+  .container-about {
+    margin: 5% 10%;
   }
 }

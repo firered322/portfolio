@@ -46,7 +46,6 @@ function App(props) {
 
   const toggleDrawer = () => {
     setToggleState(!toggleState);
-    console.log("hi", toggleState);
   };
 
   return (

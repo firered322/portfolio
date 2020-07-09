@@ -4,7 +4,7 @@ import Tilt from "react-tilt";
 
 const Aboutme = () => {
   return (
-    <div className="container">
+    <div className="container-about">
       <div className="aboutme-main">
         <Typography className="text-center" variant="h3">
           Hi, I am Atul
