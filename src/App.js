@@ -65,17 +65,17 @@ function App(props) {
           <Typography variant="h6" className={classes.title}>
             Atul Singh
           </Typography>
-          <Box display={{ xs: "none", sm: "none", md: "block" }}>
+          <Box display={{ xs: "none", md: "block" }}>
             <Button color="inherit" component={Link} to="/portfolio">
               Home
             </Button>
           </Box>
-          <Box display={{ xs: "none", sm: "none", md: "block" }}>
+          <Box display={{ xs: "none", md: "block" }}>
             <Button color="inherit" component={Link} to="/aboutme">
               About Me
             </Button>
           </Box>
-          <Box display={{ xs: "none", sm: "none", md: "block" }}>
+          <Box display={{ xs: "none", md: "block" }}>
             <Button color="inherit" component={Link} to="/projects">
               Projects
             </Button>
