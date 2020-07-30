@@ -154,6 +154,46 @@ const Projects = () => {
             <CardActionArea>
               <CardMedia
                 className={classes.media}
+                image={require("../static/hackernews.PNG")}
+                title="Hacker News clone"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Hackernewzzz
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  A hacker news clone made using React and the Hacker News API.
+                  It uses infinity scrolling to render components.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                <Link
+                  target="_blank"
+                  href="https://hackernewzzz.herokuapp.com/"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Live</Typography>
+                </Link>
+              </Button>
+              <Button size="small" color="primary">
+                <Link
+                  target="_blank"
+                  href="https://github.com/firered322/hackerNews"
+                  color="inherit"
+                >
+                  <Typography variant="small">View Code</Typography>
+                </Link>
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+        <div className="project-item">
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
                 image={require("../static/coroneye.PNG")}
                 title="Covid-19 Tracker"
               />
