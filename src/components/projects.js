@@ -147,7 +147,7 @@ const Projects = () => {
   // );
 
   return (
-    <div className="container">
+    <div className="project-container">
       <div className="projects-grid">
         <div className="project-item">
           <Card className={classes.root}>
