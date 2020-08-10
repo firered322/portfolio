@@ -32,7 +32,7 @@ const Aboutme = () => {
             I do Full Stack Development using MongoDB, Express, React, Node.js
             (MERN) and Django. I am experienced in building CRUD applications,
             RESTful APIs using Node.js and Express, User Authentication with
-            OAuth using PassportJS. My common libraries of use are Axios,
+            OAuth using PassportJS and using JWTs. My common libraries of use are Axios,
             Mongoose and Express. Common UI libraries: Bootstrap, Tailwind CSS
             and MaterialUI.
           </Typography>
